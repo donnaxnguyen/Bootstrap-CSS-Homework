@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Donna Nguyen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -23,34 +23,28 @@
 
     <div id="main-container" class="container">
         <section class="main-section">
-            <h1>Portfolio</h1>
-            
+            <h1>Contact</h1>
+           
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="contactName">Name</label>
+                        <input type="text" id="contactName" name="contactName" placeholder="John Smith" required="required"/>
+                    </li>
 
-            <div class="work">
-                <img src="assets/images/code.png" class="auth-image" alt="code quiz"/>
-                <h3>Code Quiz</h3>
-            </div>
+                    <li>
+                        <label for="contactEmail">Email</label>
+                        <input type="email" id="contactEmail" name="contactEmail" placeholder="example@gmail.com" required="required"/>
+                    </li>
 
-            <div class="work">
-                <img src="assets/images/plan.png" class="auth-image" alt="daily planner" />
-                <h3>Daily Planner</h3>
-            </div>
+                    <li>
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="contactMessage" required="required"></textarea>
+                    </li>
+                </ul>
 
-            <div class="work">
-                <img src="assets/images/weather.png" class="auth-image" alt="weather dashboard" />
-                <h3>Weather Dashboard</h3>
-            </div>
-
-            <div class="work">
-                <img src="assets/images/note.png" class="auth-image" alt="note taker" />
-                <h3>Note Taker</h3>
-            </div>
-
-            <div class="work">
-                <img src="assets/images/space.png" class="auth-image" alt="spaceforce" />
-                <h3>SpaceForce</h3>
-            </div>
-            
+                <input type="submit" name="Submit"/>
+            </form>
         </section>
 
         <section class="sidebar">
