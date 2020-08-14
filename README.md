@@ -42,6 +42,6 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 ## Deployed Application
 
-https://donnaxnguyen.github.io/Bootstrap-CSS-Homework/
+https://donnaxnguyen.github.io/bootstrap-homework/
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
